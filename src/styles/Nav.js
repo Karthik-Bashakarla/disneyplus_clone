@@ -16,7 +16,6 @@ export const Header = styled.header`
 export const Logo = styled.div`
   height: 4rem;
   width: 8rem;
-  border: 2px solid red;
   margin: 0 1.5rem;
 
   img {
@@ -29,7 +28,6 @@ export const Logo = styled.div`
 export const NavBar = styled.nav`
   display: flex;
   align-items: center;
-  border: 2px solid red;
   height: 4rem;
   width: calc(100vw - 11rem);
 `;
