@@ -1,7 +1,14 @@
 import React from "react";
+import Login from "./components/Login";
+import Nav from "./components/Nav";
 
 const App = () => {
-  return <div>Hello</div>;
+  return (
+    <>
+      <Nav />
+      <Login />
+    </>
+  );
 };
 
 export default App;
