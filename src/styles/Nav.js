@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Header = styled.header`
   font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
@@ -36,11 +37,14 @@ export const NavContent = styled.div`
   display: flex;
   flex: 1;
   align-items: center;
-  div {
-    margin: 0 1.2rem;
-    cursor: pointer;
-    letter-spacing: 0.1rem;
-  }
+`;
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: #fff;
+  margin: 0 1rem;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
 `;
 
 export const SignIn = styled.button`
