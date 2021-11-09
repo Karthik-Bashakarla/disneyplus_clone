@@ -4,11 +4,24 @@ import { BrandsContainer, Brand } from "../../styles/home/Brands";
 const Brands = () => {
   return (
     <BrandsContainer>
-      <Brand>1</Brand>
-      <Brand>2</Brand>
-      <Brand>3</Brand>
-      <Brand>4</Brand>
-      <Brand>5</Brand>
+      <Brand>
+        <img src="./assets/images/viewers-disney.png" alt="disney" />
+      </Brand>
+      <Brand>
+        <img src="./assets/images/viewers-marvel.png" alt="marvel" />
+      </Brand>
+      <Brand>
+        <img src="./assets/images/viewers-national.png" alt="nationa" />
+      </Brand>
+      <Brand>
+        <img src="./assets/images/viewers-star.png" alt="star" />
+      </Brand>
+      <Brand>
+        <img src="./assets/images/viewers-pixar.png" alt="pixar" />
+      </Brand>
+      <Brand>
+        <img src="./assets/images/viewers-starwars.png" alt="starwars" />
+      </Brand>
     </BrandsContainer>
   );
 };

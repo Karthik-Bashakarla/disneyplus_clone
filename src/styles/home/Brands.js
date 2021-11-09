@@ -11,8 +11,18 @@ export const BrandsContainer = styled.div`
 `;
 export const Brand = styled.div`
   width: 12rem;
-  height: 8rem;
-  background-color: red;
-  border: 2px solid green;
+  height: 7rem;
+  border: 2px solid #ededed70;
   border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  &: hover {
+    transform: scale(1.2);
+  }
 `;
