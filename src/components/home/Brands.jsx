@@ -2,26 +2,39 @@ import React from "react";
 import { BrandsContainer, Brand } from "../../styles/home/Brands";
 
 const Brands = () => {
+  const brandsList = [
+    {
+      image: "./assets/images/viewers-disney.png",
+      text: "disney",
+    },
+    {
+      image: "./assets/images/viewers-marvel.png",
+      text: "marvel",
+    },
+    {
+      image: "./assets/images/viewers-star.png",
+      text: "star",
+    },
+    {
+      image: "./assets/images/viewers-pixar.png",
+      text: "pixar",
+    },
+    {
+      image: "./assets/images/viewers-national.png",
+      text: "national",
+    },
+    {
+      image: "./assets/images/viewers-starwars.png",
+      text: "starwars",
+    },
+  ];
   return (
     <BrandsContainer>
-      <Brand>
-        <img src="./assets/images/viewers-disney.png" alt="disney" />
-      </Brand>
-      <Brand>
-        <img src="./assets/images/viewers-marvel.png" alt="marvel" />
-      </Brand>
-      <Brand>
-        <img src="./assets/images/viewers-national.png" alt="nationa" />
-      </Brand>
-      <Brand>
-        <img src="./assets/images/viewers-star.png" alt="star" />
-      </Brand>
-      <Brand>
-        <img src="./assets/images/viewers-pixar.png" alt="pixar" />
-      </Brand>
-      <Brand>
-        <img src="./assets/images/viewers-starwars.png" alt="starwars" />
-      </Brand>
+      {brandsList.map((brand) => (
+        <Brand>
+          <img src={brand.image} alt={brand.text} />
+        </Brand>
+      ))}
     </BrandsContainer>
   );
 };
