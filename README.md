@@ -15,3 +15,9 @@ NOTE: This project is made only for educational purpose and to get expertise in 
 - Fetches data dynamically using `TMDB` API
 
 This is only the frontend part of the project, backend will be done in the future.
+
+## Future Tasks
+
+- Sign in and Sign out functionality 
+- FireBase as Backend
+- Realtime database using FireStore
