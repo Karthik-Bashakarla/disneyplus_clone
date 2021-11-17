@@ -9,7 +9,10 @@ const Home = () => {
     <HomeContainer>
       <Carousel />
       <Brands />
-      <Movies />
+      <Movies title="Top rated" />
+      <Movies title="Anime" />
+      <Movies title="Thriller" />
+      <Movies title="Comedy" />
     </HomeContainer>
   );
 };
