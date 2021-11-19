@@ -40,4 +40,4 @@ const Movies = ({ title }) => (
     </MovieList>
   </MovieContainer>
 );
-export default Movies;
+export default React.memo(Movies);

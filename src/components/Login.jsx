@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { LoginContainer, LoginContent } from "../styles/Login";
 
 const Login = () => {
@@ -24,4 +24,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default React.memo(Login);
