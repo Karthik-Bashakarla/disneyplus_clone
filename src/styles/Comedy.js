@@ -1,14 +1,17 @@
 import styled from "styled-components";
 
-export const MovieContainer = styled.div`
+export const ComedyContainer = styled.div`
+  background: url("./assets/images/backgroundImg.png") center/cover no-repeat;
   font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
-  padding: 0 2.5rem;
+  // border: 2px solid red;
+  text-align: center;
 `;
 
 export const Title = styled.div`
-  padding-left: 1rem;
+  // border: 2px solid red;
+  padding: 2rem 0 1rem;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 2rem;
   letter-spacing: 0.125rem;
 `;
 
@@ -16,11 +19,11 @@ export const MovieList = styled.div`
   // border: 2px solid red;
   display: flex;
   align-items: center;
-  overflow-x: scroll;
+  justify-content: center;
+  flex-wrap: wrap;
   cursor: grab;
   padding-left: 1rem;
   padding-bottom: 1rem;
-  // overflow-y: visible;
 `;
 
 export const Movie = styled.div`

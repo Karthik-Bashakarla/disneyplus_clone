@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { LoginContainer, LoginContent } from "../styles/Login";
 
 const Login = () => {
@@ -7,7 +7,7 @@ const Login = () => {
       <LoginContent>
         <img
           className="img1"
-          src="./assets/images/cta-logo-one.svg"
+          src={process.env.PUBLIC_URL + "./assets/images/cta-logo-one.svg"}
           alt="hero-image1"
         />
         <p>
@@ -16,7 +16,7 @@ const Login = () => {
         </p>
         <img
           className="img2"
-          src="./assets/images/cta-logo-two.png"
+          src={process.env.PUBLIC_URL + "./assets/images/cta-logo-two.png"}
           alt="hero-image2"
         />
       </LoginContent>

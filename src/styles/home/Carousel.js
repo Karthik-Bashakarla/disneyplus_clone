@@ -4,9 +4,14 @@ export const ImageContainer = styled.div`
   // border: 2px solid red;
   width: 100%;
   height: 25rem;
-  margin: 0.7rem 0;
+  margin: 0.7rem 0 2rem;
   display: flex;
   justify-content: center;
+  box-shadow: 10px 25px 15px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    box-shadow: 10px 25px 15px rgba(0, 0, 0, 0.4);
+  }
 
   div {
     height: 100%;

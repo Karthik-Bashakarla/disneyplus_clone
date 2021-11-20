@@ -23,11 +23,10 @@ const Nav = () => {
       <NavBar>
         <NavContent>
           <StyledLink to="/home">Home</StyledLink>
-          <StyledLink>Action & Adventure</StyledLink>
-          <StyledLink>Comedy</StyledLink>
-          <StyledLink>Animation</StyledLink>
-          <StyledLink>Anime</StyledLink>
-          <StyledLink>Crime</StyledLink>
+          <StyledLink to="/action-adventure">Action & Adventure</StyledLink>
+          <StyledLink to="/comedy">Comedy</StyledLink>
+          <StyledLink to="/anime">Anime</StyledLink>
+          <StyledLink to="/war">War</StyledLink>
         </NavContent>
         <SignIn>Login</SignIn>
       </NavBar>

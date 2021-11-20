@@ -41,12 +41,13 @@ const Home = () => {
     <HomeContainer>
       <Carousel />
       <Brands brandsList={brandsList} />
-      <Movies title="Top rated" />
+      <Movies title="Top Rated" />
       <Movies title="Anime" />
-      <Movies title="Thriller" />
+      <Movies title="Popular" />
+      <Movies title="War" />
       <Movies title="Comedy" />
     </HomeContainer>
   );
 };
 
-export default Home;
+export default React.memo(Home);
