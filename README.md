@@ -1,4 +1,4 @@
-# Disneyplus Clone (in progress.....)
+# Disneyplus Clone
 
 ```
 NOTE: This project is made only for educational purpose and to get expertise in React.
