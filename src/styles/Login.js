@@ -8,8 +8,7 @@ export const LoginContainer = styled.main`
   font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
   font-weight: 500;
   height: calc(100vh - 4rem);
-  background: url("https://disney-clone-d1e27.web.app/images/login-background.jpg")
-    center/cover no-repeat;
+  background: url("./assets/images/backgroundImg.png") center/cover no-repeat;
 
   display: flex;
   justify-content: center;
