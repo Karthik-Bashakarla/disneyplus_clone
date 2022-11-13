@@ -28,7 +28,7 @@ const Nav = () => {
           <StyledLink to="/anime">Anime</StyledLink>
           <StyledLink to="/war">War</StyledLink>
         </NavContent>
-        <SignIn>Login</SignIn>
+//         <SignIn>Login</SignIn>
       </NavBar>
     </Header>
   );
